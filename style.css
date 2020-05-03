@@ -1,0 +1,158 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden !important;
+}
+#first{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(background.jpg) no-repeat center center;
+    background-position: center;
+    background-size: cover;
+}
+.navbar-fixed-top.scrolled {
+    background-color:  #252525 !important;
+    transition: background-color 400ms linear;
+  }
+  #second{
+    width: 100%;
+}
+.nav-link{
+    font-size: 15px;
+    margin-right: 20px;
+    color:white;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color:  #fa7469;
+    text-decoration: none;
+    transition: color 300ms linear;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.a-button{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+.a-button:hover{
+    color: black;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 2px solid black;
+    transition: all 600ms;
+}
+.chef-img{
+    width: 100%;
+}
+
+.chef-header{
+    color:  #fd847a;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+}
+.chef-content{
+    padding: 10px;
+    box-shadow: 2px 4px 6px black;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#food{
+    width: 100%;
+}
+#signature-dish{
+    padding: 2%;
+    width: 100%;
+    background-color:  #eeeeee;
+}
+.signature-dish{
+    width: 100%;
+}
+
+.signature-dish-block1{
+right: -10%;
+margin-top: 8%;
+height: 10%;    
+background: white;
+padding: 20px;
+z-index: 999;
+box-shadow: 4px 8px 10px;
+}
+.signature-dish-block2{
+    z-index: 0;
+}
+.checked{
+    color: red;
+}
+.button{
+    color:  #ffaca5;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid  #ffaca5;
+}
+.button:hover{
+    color:   #ff7267 ;
+    text-decoration: none;
+    border: 2px solid   #ff7267;
+    transition: color 300ms linear;
+}
+#menu{
+    padding: 10px;
+    width: 100%;
+    background:   #fcfcfc;
+    height: 100vh;
+}
+.menu-bar{
+    padding: 20px;
+}
+.menu-header{
+    color: black;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+}
+.menu-bar1{
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+.menu-contents{
+    box-sizing: border-box;
+    border: 1px solid  #fdb8b8;
+    border-radius: 5px;
+    font-family: 'Amatic SC', cursive;
+}
+.content-items{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+}
+#rates{
+    color: red;
+}
+#ingridients{
+    font-family: 'Amatic SC', cursive;
+}
+.menu-items{
+    text-decoration: none;
+    color: black;
+}
+.menu-items:hover{
+    color:  #ff7373;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+@media screen and (max-width: 480px){
+    .signature-dish-block1{
+        right: 0%;
+        margin-top: 0%;
+    }
+}
